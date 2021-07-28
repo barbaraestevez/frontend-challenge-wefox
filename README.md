@@ -1,24 +1,16 @@
-# wefox Frontend Challenge
+# Bárbara Estévez – Wefox Frontend Challenge
 
-**This project is a template for the challenge, you can change all the files you consider change**, it was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Pre-requisites
-- Docker
-- Git
-
-## What we want
-Open a repo in Github/GitLab/Bitbucket (send it to us, so we can see the progress) and build a dummy app that:
-
-### Required
-- Runs locally the API using docker-compose (you've available the config on `docker-compose.yml` file)
-- Use the Dockerized API that operates over a single resource called posts (check “API usage specification” for more information)
-- Contains an React client that consumes that API and can:
-    - List, show, create, update, and remove that resource
-- Write the client side with Typescript
+## TODO's
+Create a dummy app, using typescript, that contains a React client that consumes the API that Wefox provides so the app can:
+- List
+- Show
+- Create
+- Update
+- Remove
 
 ### Optional
-- You can use a CSS framework if it helps in the UI
-- You can deploy the application somewhere (netlify or heroku can be suitable options) so we can play with it easily
+- Use a CSS framework if it helps in the UI
+- Deploy the application somewhere (netlify or heroku can be suitable options) so we can play with it easily
 
 ### Notes
 - The client side doesn't have to be dockerized, is up to you
@@ -27,14 +19,18 @@ Open a repo in Github/GitLab/Bitbucket (send it to us, so we can see the progres
 ### Extra points
 - **Creativity**
 
-    You can add extra & cool features, for example: Create a DataTable to list posts, play with lat/long fields adding a map, etc
+    Add extra & cool features (for example: Create a DataTable to list posts, play with lat/long fields adding a map, etc)
+
+
 - **Tests**
     
-    You can add unit or integration tests to ensure that the code is working as expected
+    Add unit or integration tests to ensure that the code is working as expected
 
-## Available Scripts
+## Start the project locally
 
-In the project directory, you can run:
+To start you have to clone the repository. 
+Also, you need to run locally the API using docker-compose (you've available the config on docker-compose.yml file).
+The you can run:
 
 ### `npm run start`
 
